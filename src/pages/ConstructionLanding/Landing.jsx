@@ -1,5 +1,6 @@
 import About from "../../components/About/About"
 import Contact from "../../components/Contact/Contact"
+import WhatsAppButton from "../../components/Contact/WhatsAppButton"
 import Footer from "../../components/Footer/Footer"
 import Home from "../../components/Home/Home"
 import Navigation from "../../components/Navigation/Navigation"
@@ -9,6 +10,7 @@ import Services from "../../components/Services/Services"
 const Landing = () => {
     return (
         <div className="relative min-h-screen bg-stone-100">
+            <WhatsAppButton />
             <Navigation />
             <Home />
             <About />

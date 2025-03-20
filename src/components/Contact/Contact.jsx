@@ -1,3 +1,4 @@
+import DataContacts from "./../../assets/Data/Contacts.json"
 
 const Contact = () => {
     return (
@@ -82,13 +83,13 @@ const Contact = () => {
                         <div className="mt-8">
                             <h4 className="text-xl font-semibold mb-4">Síguenos</h4>
                             <div className="flex space-x-4">
-                                {["Facebook", "Twitter", "Instagram", "LinkedIn"].map((social) => (
+                                {DataContacts.map((social, index) => (
                                     <a
-                                        key={social}
-                                        href="#"
+                                        key={index}
+                                        href={social.url}
                                         className="bg-stone-700 hover:bg-amber-600 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
                                     >
-                                        {social[0]}
+                                        <img src={`Icons/${social.icon}.svg`}  alt={social.name} />
                                     </a>
                                 ))}
                             </div>

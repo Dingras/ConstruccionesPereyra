@@ -1,4 +1,5 @@
 import DataProjects from './../../assets/Data/Projects.json'
+import Project from './Project'
 
 const Projects = () => {
     return (
@@ -9,19 +10,7 @@ const Projects = () => {
                 </h2>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {DataProjects.map((item,index) => (
-                        <div key={index} className="group relative overflow-hidden rounded-lg shadow-md">
-                            <img
-                                src={`/work_${item.id}.jpg`}
-                                alt={`${item.name}`}
-                                className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                                <h3 className="text-white text-xl font-bold">{item.name}</h3>
-                                <p className="text-stone-200 mt-2">
-                                    {item.description}
-                                </p>
-                            </div>
-                        </div>
+                        <Project key={index} item={item}/>
                     ))}
                 </div>
                 <div className="text-center mt-12">
