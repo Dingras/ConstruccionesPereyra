@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Construcción Residencial",
+        "description":
+            "Casas y edificios residenciales con los más altos estándares de calidad y eficiencia energética.",
+        "icon": "🏠"
+    },
+    {
+        "title": "Proyectos Comerciales",
+        "description":
+            "Oficinas, centros comerciales y espacios de retail diseñados para maximizar la funcionalidad y el atractivo.",
+        "icon": "🏢"
+    },
+    {
+        "title": "Infraestructura",
+        "description":
+            "Puentes, carreteras y obras públicas construidas para durar y servir a la comunidad durante generaciones.",
+        "icon": "🌉"
+    },
+    {
+        "title": "Renovaciones",
+        "description":
+            "Transformamos espacios existentes para darles nueva vida y funcionalidad con un enfoque moderno.",
+        "icon": "🔨"
+    },
+    {
+        "title": "Diseño Arquitectónico",
+        "description":
+            "Servicios de diseño que combinan estética, funcionalidad y sostenibilidad para crear espacios únicos.",
+        "icon": "📐"
+    },
+    {
+        "title": "Consultoría",
+        "description":
+            "Asesoramiento experto en todas las fases de su proyecto, desde la planificación hasta la ejecución.",
+        "icon": "📋"
+    }
+]
